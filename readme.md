@@ -2,3 +2,8 @@
 
 Tutorial de UskoKruM2010
 https://youtu.be/mgDIP46LEUo?si=JKTYvxOpz6gUJi1W
+
+usando las librerías
+werkzeug 
+passlib 
+cryptography
