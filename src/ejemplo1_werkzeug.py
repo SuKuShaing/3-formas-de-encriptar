@@ -3,7 +3,7 @@ from werkzeug.security import generate_password_hash, check_password_hash
 # generate_password_hash # Genera un valor cifrado
 # check_password_hash # Verifica un valor cifrado
 
-# texto_encriptado_1 = generate_password_hash("texto a encriptar", method="metodo de encriptacion (opcional)", salt_length=16 ("opcional, debe ser un número entero"))
+# texto_encriptado_1 = generate_password_hash("texto a encriptar", method="método de encriptacion (opcional)", salt_length=16 ("opcional, debe ser un número entero"))
 # El "salt" es un valor aleatorio que se añade a la contraseña antes de aplicar la función hash para asegurar que incluso contraseñas idénticas no produzcan el mismo hash. Esto ayuda a proteger contra ataques de diccionario y ataques de fuerza bruta.
 
 texto = "x?1_P-1M.4!eM"
